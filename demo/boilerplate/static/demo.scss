@@ -1,0 +1,28 @@
+/*
+body {
+  .container-fluid {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: grey;
+    p {
+      padding: 20px;
+      background: pink;
+    }
+  }
+}
+*/
+
+//$body-bg: #000;
+//$body-color: #111;
+
+$theme-colors: (
+  "primary": #004582,
+  "danger": #ff4136,
+  "warning": #332277,
+  "info": #336699
+);
+
+@import "./bootstrap/scss/bootstrap";
+
+
